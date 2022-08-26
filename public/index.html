@@ -8,39 +8,44 @@
 </head>
 <body>
     
-    <div class="text-violet-600"> <!-- content -->
-        <div> <!-- navbar -->
-            <nav>
-                <div>
-                    <h1>
-                        <a href="/">AG</a>
-                    </h1>
-                </div>
+    <div class="font-['Helvetica']"> <!-- content -->
+        <div class="py-4 bg-[rgb(33,33,33)] text-white drop-shadow-xl"> <!-- navbar -->
+            <nav class="px-8 mx-auto">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <div class="text-2xl font-bold tracking-tighter">
+                            <a href="/">
+                                AG
+                            </a>
+                        </div>
+                    </div>
 
-                <ul>
-                    <li>
-                        <a href="#">
-                            <span>About</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Projects</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Resume</span>
-                        </a>
-                    </li>
-
-                    <li>
+                    <div class="flex space-x-10">
+                        <div class="group">
+                            <a href="#">
+                                <span>About</span>
+                            </a>
+                            <div class="bg-white w-full scale-x-0 group-hover:scale-x-100 transition duration-300 h-1/6"></div>
+                        </div>
+                        <div class="group">
+                            <a href="#">
+                                <span>Projects</span>
+                            </a>
+                            <div class="bg-white w-full scale-x-0 group-hover:scale-x-100 transition duration-300 h-1/6"></div>
+                        </div>
+                        <div class="group">
+                            <a href="#">
+                                <span>Resume</span>
+                            </a>
+                            <div class="bg-white w-full scale-x-0 group-hover:scale-x-100 transition duration-300 h-1/6"></div>
+                        </div>
+                    </div>
+                    <div class="px-4 py-2 rounded-full bg-[rgb(0,131,183)]">
                         <a href="#">
                             <span>Contact Me</span>
                         </a>
-                    </li>
-                </ul>
-
+                    </div>
+                </div>
             </nav>
         </div> <!-- end navbar -->
 
@@ -52,8 +57,8 @@
 
             <div> 
                 <div> <!-- about -->
-                    <div>
-                        <img src="img/prof.jpg" alt="me">
+                    <div class=" w-64">
+                        <img class="rounded-full" src="img/prof.jpg" alt="me">
                     </div>
                     
                     <div>
